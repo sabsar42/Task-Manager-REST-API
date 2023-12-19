@@ -115,7 +115,7 @@ class _TaskItemCardState extends State<TaskItemCard> {
                 Navigator.pushAndRemoveUntil(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const MainBottomNavScreen()),
+                        builder: (context) =>  MainBottomNavScreen()),
                     (route) => false);
               },
             ))
